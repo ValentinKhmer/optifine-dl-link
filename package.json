@@ -1,0 +1,16 @@
+{
+  "name": "optifine-dl-link",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/api.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "vercel dev"
+  },
+  "author": "ValentinKhmer",
+  "license": "GPL-3.0"
+}
