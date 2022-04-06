@@ -1,4 +1,9 @@
 {
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "cleanUrls": true,
+    "redirects": [
+        { "source": "/", "destination": "https://github.com/ValentinKhmer/optifine-dl-link#readme" }
+    ],
     "rewrites": [
         { "source": "/(.*)", "destination": "/api/$1" }
     ],
@@ -12,7 +17,7 @@
                 },
                 {
                     "key": "Access-Control-Allow-Methods",
-                    "value": "PUT, POST, GET, DELETE, PATCH, OPTIONS"
+                    "value": "GET"
                 },
                 {
                     "key": "Access-Control-Allow-Headers",
