@@ -12,5 +12,5 @@
     "test": "vercel dev"
   },
   "author": "ValentinKhmer",
-  "license": "GPL-3.0"
+  "license": "MIT"
 }
